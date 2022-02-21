@@ -114,7 +114,7 @@ exec --no-startup-id nm-applet
 
 bindsym $mod+g exec goldendict
 
-bindsym $mod+c exec firefox
+bindsym $mod+c exec google-chrome-stable
 
 bindsym $mod+Return exec alacritty
 
