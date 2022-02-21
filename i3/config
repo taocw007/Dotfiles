@@ -72,7 +72,7 @@ bar {
 ####                        specific cofnig for some window                ####
 ###############################################################################
 
-for_window [class="flameshot"] floating toggle
+# for_window [class="flameshot"] floating toggle # maybe wrong
 
 
 
