@@ -83,7 +83,7 @@ bar {
 
 exec_always --no-startup-id feh --bg-fill $wallpaper
 
-exec --no-startup-id flameshot
+# exec --no-startup-id flameshot
 
 exec --no-startup-id picom -b --config $picomconf
 
