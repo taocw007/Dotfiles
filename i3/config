@@ -34,18 +34,20 @@ gaps inner 5
 gaps outer 3
 # gaps
 
-new_window none
-new_float normal
-hide_edge_borders both
-# boarder
+default_border pixel 4
+default_floating_border pixel 8
+# new_window none
+# new_float normal
+# hide_edge_borders both
+# border
 
 bar {
     height 28
     workspace_buttons yes
     font pango:Font Awesome 5 Free 14, Font Awesome 5 Brands 14, FontAwesome 14, Noto Sans 14 
 
-    #position top
-    position bottom
+    position top
+    #position bottom
 
     i3bar_command i3bar --transparency
 
@@ -81,13 +83,15 @@ bar {
 ####                        autostart app                                  ####
 ###############################################################################
 
+exec --no-startup-id fcitx5
+
 exec_always --no-startup-id feh --bg-fill $wallpaper
 
 # exec --no-startup-id flameshot
 
 exec --no-startup-id picom -b --config $picomconf
 
-exec --no-startup-id redshift -P -O 5000 
+exec_always --no-startup-id redshift -P -O 5500 
 
 exec --no-startup-id dex --autostart --environment i3
 # Start XDG autostart .desktop files using dex. See also
@@ -118,11 +122,14 @@ bindsym $mod+c exec google-chrome-stable
 
 bindsym $mod+Return exec alacritty
 
-bindsym $mod+d exec --no-startup-id rofi -show run -fullscreen -font "Noto Sans 13"
+bindsym $mod+d exec --no-startup-id rofi -show run -fullscreen -font "Noto Sans 16"
 
 bindsym $mod+Shift+q kill
 
 bindsym $mod+r mode "resize"
+
+bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl -q s +5%
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl -q s 5%-
 
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
