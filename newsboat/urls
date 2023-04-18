@@ -10,4 +10,6 @@ https://suckless.org/atom.xml "suckless"
 
 http://twrp.me/feed.xml "twrp"
 
-# https://www.xda-developers.com/feed/ "xda"
+https://github.com/j178/chatgpt/releases.atom "github" "chatgpt"
+
+https://github.com/neovim/neovim/tags.atom "github" "nvim"

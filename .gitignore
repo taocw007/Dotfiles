@@ -1,2 +1,9 @@
-.newsboat/cache.db
-.newsboat/history.cmdline
+mpd/log
+mpd/pid
+mpd/state
+mpd/database
+ncmpcpp/error.log
+*.example
+newsboat/cache.db
+newsboat/history.cmdline
+newsboat/queue
