@@ -7,3 +7,5 @@ ncmpcpp/error.log
 newsboat/cache.db
 newsboat/history.cmdline
 newsboat/queue
+newsboat/cache.db.lock
+lazygit/state.yml
