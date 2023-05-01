@@ -6,5 +6,5 @@
 # |___/\__\__,_|_|   \__/_/\_\
 #                             
 
-xrdb -merge -I$HOME ~/.Xresources
+[ -f $HOME/.Xresources ] && xrdb -merge -I$HOME ~/.Xresources
 exec startdwm 
