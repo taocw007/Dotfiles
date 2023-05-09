@@ -7,4 +7,4 @@
 #                             
 
 [ -f $HOME/.Xresources ] && xrdb -merge -I$HOME ~/.Xresources
-exec startdwm 
+exec startdwm
