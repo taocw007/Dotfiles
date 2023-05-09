@@ -1,6 +1,6 @@
 https://rsshub.app/hrbeu/ugs/news/jwc/all "heu"
 
-https://archlinux.org/feeds/news/ "archlinux"
+https://archlinux.org/feeds/news/ "linux"
 
 https://security.archlinux.org/advisory/feed.atom "archlinux"
 
@@ -13,3 +13,7 @@ http://twrp.me/feed.xml "twrp"
 https://github.com/j178/chatgpt/releases.atom "github" "chatgpt"
 
 https://github.com/neovim/neovim/tags.atom "github" "nvim"
+
+https://github.com/jesseduffield/lazygit/releases.atom "github"
+
+https://www.kernel.org/feeds/all.atom.xml "linux"
