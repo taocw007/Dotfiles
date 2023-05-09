@@ -1,0 +1,10 @@
+set shell sh
+set shellopts '-eu'
+set ifs "\n"
+set scrolloff 10
+set icons
+
+map <enter> shell
+
+map x $$f
+map X !$f
