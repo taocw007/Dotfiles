@@ -1,0 +1,7 @@
+gui:
+  scrollHeight: 5 
+  scrollPastBottom: false
+  showIcons: false
+
+notARepository: skip
+promptToReturnFromSubprocess: false
