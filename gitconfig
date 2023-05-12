@@ -1,0 +1,12 @@
+[core]
+    editor = nvim
+
+[user]
+	name = ooohpi
+	email = taochangwan@qq.com
+
+[color]
+    ui = auto
+
+[credential]
+    helper = cache
