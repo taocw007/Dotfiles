@@ -1,0 +1,311 @@
+ls
+rm .bash_history 
+ls
+la
+ls
+dbash
+ls
+mkdir cache
+ls
+ls cache/
+q
+la
+dbash
+ls cache/
+cat cache/bashhistory 
+clear
+ls
+clear
+ls
+clear
+vi config/aliases.sh 
+ls
+sbc
+pmql
+ls
+vi config/aliases.sh 
+sbc
+pmql fzf
+vi config/aliases.sh 
+ls
+sbc
+pmql fzf
+fzfbat
+pmql fzf | fzf --preview "bat {1}"
+pmql fzf | cut --field=2 | fzf --preview "bat {1}"
+pmql -s fzf
+pmql -q fzf
+vi config/aliases.sh 
+sbc
+pmql fzf | fzf --preview "bat {1}"
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+pacman -Slq
+man pacman
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+pmql fzf
+pmql vim
+pmql neovim
+ls
+pmql find
+pmql plocate
+fd
+fd | hexdump 
+objdump /lib/crtl.o
+objdump -d /lib/crtl.o
+ls /lib/
+objdump -d /lib/crt1.o
+c
+ls
+vi config/settings.sh 
+sbc
+vi config/settings.sh 
+sbc
+echo $FZF_ALT_C_COMMAND
+ls
+ls config/
+vi config/fzf.sh 
+sbc
+ls
+complete | grep _fzf
+ls
+clear
+ls
+vi rc 
+ls
+cat cache/bashhistory 
+ls
+clear
+q
+ls
+ls *history
+ls
+clear
+dbash
+vi config/aliases.sh 
+l
+ls
+sbc
+git log
+git log --pretty=format:oneline
+git log --pretty=oneline
+git log --pretty=short
+git log --pretty="format:%H"
+ls
+git log config/prompt.sh 
+git log  ../xinitrc 
+clear
+git log --pretty="format:%h"
+git log --pretty="format:%h %cn"
+git log --pretty="format:%h %cn %s"
+git log --pretty="format:%h %cn %s" --graph
+git log 0fa5557
+git log --pretty="format:%h %cn %s" --graph -n 5
+git log --pretty="format:%h %cn %s" --graph -n 10
+git log --pretty="format:%h %cn %s" --graph -n 20
+vi config/aliases.sh 
+sbc
+gl
+vi config/aliases.sh 
+sb
+sbc
+gl
+alias gl
+git log --pretty="format:%h %cn %s" --graph -n=10
+git log --pretty="format:%h %cn %s" --graph -n 10
+vi config/aliases.sh 
+sbc
+gl
+clear
+ls
+clear
+ls
+clear
+vi config/aliases.sh 
+git log --pretty=format:magenta%h
+ls
+ESC=$(printf "\e")
+git log --pretty=format:$ESC[38;2;255;0;0;m%h
+git log --pretty=format:($ESC[38;2;255;0;0;m)%h
+clear
+git log --pretty=format:%Cred%h
+vi config/aliases.sh 
+sbc
+gl
+vi config/aliases.sh 
+sbc
+gl
+vi config/aliases.sh 
+sbc
+gl
+ls
+clear
+vi config/aliases.sh 
+gss
+ls
+gss
+cd
+ddf
+gs
+gss
+ls
+clear
+ls
+gss
+dbash
+gss
+ls
+lg
+c
+ls
+lf
+ls
+vi config/aliases.sh 
+PS1="\n\t \[\033[32m\]\w\[\033[33m\]\$(GIT_PS1_SHOWUNTRACKEDFILES=1 GIT_PS1_SHOWDIRTYSTATE=1 __git_ps1)\[\033[00m\] $ "
+ls
+ls
+clear
+ls
+clear
+ls
+xev
+ls
+clear
+ls
+clear
+ls
+ncmpcpp 
+pmqe | fzf --preview "cat "
+pmqe
+c
+ncmpcpp 
+clear
+dbash
+lf
+clear
+ls
+lf
+df
+sbc
+ls
+sbc
+ls
+clear
+ls
+c
+ls
+c
+git status --porcelain
+ddmenu
+git status --porcelain
+sbc
+ls
+c
+ls
+c
+mc
+ls
+lg
+ls
+clear
+cd
+ls
+sbc
+ls
+ddmenu
+ls
+sbc
+ls
+cd
+git branch
+git branch || echo ok
+dst
+git branch || echo ok
+sbc
+ls
+cd
+sbc
+cd
+dst
+ls
+sbc
+ls
+cd
+q
+dbash
+vi config/prompt.sh 
+ls
+sbc
+ls
+vi config/prompt.sh 
+sbc
+ls
+vi config/prompt.sh 
+sbc
+vi config/prompt.sh 
+sbc
+ls
+clear
+ll
+lg
+ddwm
+ls
+dbash
+vi config/prompt.sh 
+sbc
+ls
+c
+dst
+gs
+dmenu
+ddmenu
+ls
+gs
+dbash
+vi config/prompt.sh 
+ls
+vi config/prompt.sh 
+sbc
+cd
+cd -
+ls
+vi config/prompt.sh 
+sbc
+ls
+vi config/prompt.sh 
+clear
+sbc
+cd
+sbc
+ls
+dst
+ls
+clear
+vi config/prompt.sh 
+dbash
+ls
+sbc
+clear
+q
+dst
+ls
+echo $PS1
+rb
+dbash
+ls
+vi config/prompt.sh 
+sbc
+q
