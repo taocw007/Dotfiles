@@ -9,3 +9,5 @@ newsboat/history.cmdline
 newsboat/queue
 newsboat/cache.db.lock
 lazygit/state.yml
+
+bash/cache/bashhistory
