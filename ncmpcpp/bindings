@@ -42,6 +42,3 @@ def_key "d"
 
 def_key "L"
   show_lyrics
-
-def_key "t"
-  toggle_visualization_type

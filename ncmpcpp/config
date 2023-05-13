@@ -1,10 +1,5 @@
 lyrics_directory = ~/Music/lyrics
 mpd_music_dir = ~/Music
 
-visualizer_data_source = "/tmp/mpd.fifo"
-visualizer_output_name = "my_fifo"
-visualizer_type = "spectrum" #spectrum/wave/wave_filled/ellipse
-
 mouse_support = "yes"
 autocenter_mode = yes
-
