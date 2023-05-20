@@ -5,6 +5,7 @@ alias nb='newsboat'
 alias vi='nvim'
 alias py='python'
 
+alias info='info --vi-keys'
 alias e='exit'
 alias c='clear'
 alias ls='ls --color=auto'
