@@ -3,7 +3,7 @@ set statusbar-h-padding 0
 set statusbar-v-padding 0
 set page-padding 1
 set selection-clipboard clipboard
-set font "sans normal 14"
+set font "SauceCodePro Nerd Font normal 14"
 set guioptions ''
 set adjust-open "best-fit"
 set recolor 'true'
