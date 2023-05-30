@@ -3,6 +3,7 @@ set shellopts '-eu'
 set ifs "\n"
 set scrolloff 10
 set icons
+set cursorpreviewfmt "\033[7;90m"
 
 map <enter> shell
 
