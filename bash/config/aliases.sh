@@ -61,13 +61,3 @@ alias dtmp="cd $HOME/workspace/tmp"
 
 alias smi='sudo make install'
 alias mc='make clean'
-
-alias man1='man 1'
-alias man2='man 2'
-alias man3='man 3'
-alias man4='man 4'
-alias man5='man 5'
-alias man6='man 6'
-alias man7='man 7'
-alias man8='man 8'
-alias man9='man 9'
