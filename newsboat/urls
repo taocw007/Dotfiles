@@ -1,19 +1,11 @@
-https://rsshub.app/hrbeu/ugs/news/jwc/all "heu"
+https://archlinux.org/feeds/news/ "linux" "~ArchLinux: Recent News"
+https://security.archlinux.org/advisory/feed.atom "linux" "~ArchLinux: Security Advisories"
 
-https://archlinux.org/feeds/news/ "linux"
+https://suckless.org/atom.xml "suckless" "~Suckless org: News"
 
-https://security.archlinux.org/advisory/feed.atom "archlinux"
+http://twrp.me/feed.xml "twrp" "~TWRP Release"
 
-https://bugs.archlinux.org/feed.php?feed_type=rss2&project=1 "archlinux"
-
-https://suckless.org/atom.xml "suckless"
-
-http://twrp.me/feed.xml "twrp"
-
-https://github.com/j178/chatgpt/releases.atom "github" "chatgpt"
-
-https://github.com/neovim/neovim/tags.atom "github" "nvim"
-
-https://github.com/jesseduffield/lazygit/releases.atom "github"
-
-https://www.kernel.org/feeds/all.atom.xml "linux"
+https://github.com/j178/chatgpt/releases.atom "github" "chatgpt" "~Github Release: chatgpt"
+https://github.com/neovim/neovim/tags.atom "github" "neovim" "~Github Release: neovim"
+https://github.com/jesseduffield/lazygit/releases.atom "github" "~Github Release: lazygit"
+https://github.com/gokcehan/lf/releases.atom "github" "~Github Release: lf"
