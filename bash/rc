@@ -7,3 +7,4 @@ source $omb/config/settings.sh
 source $omb/config/prompt.sh
 source $omb/config/aliases.sh
 source $omb/config/fzf.sh
+source $omb/config/z.sh
