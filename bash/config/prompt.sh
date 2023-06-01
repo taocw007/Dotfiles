@@ -1,8 +1,7 @@
-function parse_git_dirty {
-  [[ $(git status --porcelain 2> /dev/null) ]] && echo "*"
-}
-function parse_git_branch {
-  git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e "s/* \(.*\)/[\1$(parse_git_dirty)]/"
-}
+bin="$omb/plugins/ohmyposh/oh-my-posh"
+config="$omb/plugins/ohmyposh/theme.omp.json"
 
-export PS1='\W $(parse_git_branch)\$ '
+eval "$($bin init bash --config $config)"
+
+unset bin
+unset config
