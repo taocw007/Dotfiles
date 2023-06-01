@@ -1,5 +1,6 @@
-auto-reload yes
+reload-threads 99
 browser google-chrome-stable
+show-keymap-hint no
 
 bind-key j down
 bind-key k up
