@@ -1,0 +1,6 @@
+@theme "gruvbox-dark"
+configuration {
+    font: "SauceCodePro Nerd Font 14";
+}
+
+/* vim: set ft=css: */
