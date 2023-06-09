@@ -2,6 +2,7 @@ gui:
   scrollHeight: 5 
   scrollPastBottom: false
   showIcons: false
+  showBottomLine: false
 
 notARepository: skip
 promptToReturnFromSubprocess: false
