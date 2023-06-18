@@ -5,7 +5,7 @@ set page-padding 1
 set selection-clipboard clipboard
 set font "SauceCodePro Nerd Font normal 14"
 set guioptions ''
-set adjust-open "best-fit"
+set adjust-open "width"
 map K zoom in
 map J zoom out
 map u scroll half-up
