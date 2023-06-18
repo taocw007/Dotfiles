@@ -3,6 +3,7 @@
 ```shell
 curl cip.cc
 curl cheat.sh/{command}
+curl wttr.in[/location]
 ```
 
 `/usr/share/X11/xkb/rules/base.lst`
@@ -16,3 +17,8 @@ curl cheat.sh/{command}
 wireguard-tools
 
 Cloudflare WARP
+
+## default app
+```shell
+xdg-mime default org.pwmt.zathura.desktop application/pdf
+```
