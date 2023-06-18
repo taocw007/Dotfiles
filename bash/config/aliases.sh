@@ -1,14 +1,12 @@
-#!/usr/bin/env sh
 alias lg='lazygit'
 alias cg='chatgpt'
 alias nb='newsboat'
 alias vi='nvim'
 alias py='python'
 
+alias wifil='nmcli dev wifi list'
 alias info='info --vi-keys'
-alias e='exit'
-alias c='clear'
-alias ls='ls --color=auto'
+alias ls='ls --color=auto -h'
 alias ll='ls -l'
 alias la='ls -al'
 alias grep='grep --color=auto'
@@ -22,17 +20,12 @@ alias free='free -h'
 alias df='df -h'
 alias bat='bat --style=plain'
 
-alias gco='git checkout'
-alias gs='git status -s'
-alias gr='git remote'
-alias gb='git branch'
 alias gl='git log --pretty="tformat:%Cred%h %Cgreen%cn %Cblue%s" --graph -n 10'
 
 alias sbc="source $HOME/.bashrc"
-alias vbc="nvim $HOME/.bashrc"
 
-alias spms='sudo pacman -S '
-alias spmsyu='sudo pacman -Syyu'
+alias spms="pacman -Slq | fzf --multi --preview 'pacman -Si {1}' | xargs -ro sudo pacman -S"
+alias spmsyu='sudo pacman -Syyuu'
 alias pmsi='pacman -Si'
 alias pmss='pacman -Ss'
 alias pmqo='pacman -Qo'
@@ -40,24 +33,14 @@ alias pmql='pacman -Qlq'
 alias pmqm='pacman -Qm'
 alias pmqe='pacman -Qe'
 alias pmf='pacman -F'
-alias spmr='sudo pacman -R'
+alias spmr="pacman -Qeq | fzf --multi --preview 'pacman -Qi {1}' | xargs -ro sudo pacman -Rns"
 
 alias stc='sudo systemctl'
 alias stcs='sudo systemctl status'
 alias sstce='sudo systemctl enable'
 alias sstcd='sudo systemctl disable'
 
-alias dworkspace="cd $HOME/workspace"
-alias ddwm="cd $HOME/workspace/dwm"
-alias dbooks="cd $HOME/workspace/books"
-alias dscripts="cd $HOME/workspace/scripts"
-alias dst="cd $HOME/workspace/st"
-alias ddmenu="cd $HOME/workspace/dmenu"
-alias ddf="cd $HOME/workspace/Dotfiles"
-alias dbash="cd $HOME/workspace/Dotfiles/bash"
-alias dnvim="cd $HOME/.config/nvim"
-alias dfish="cd $HOME/.config/fish"
-alias dtmp="cd $HOME/workspace/tmp"
+alias dtmp="mkdir -p /tmp/ooohpi-tmp && cd /tmp/ooohpi-tmp"
 
 alias smi='sudo make install'
 alias mc='make clean'
