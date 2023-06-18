@@ -8,8 +8,7 @@ books() {
 
 main() {
     case $1 in
-        'b')
-            books;return ;;
+        'b') books;return ;;
     esac
 
     func=$(echo -e "books\nmusics" | fzf)
