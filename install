@@ -13,4 +13,4 @@ ln -sf $HOME/workspace/Dotfiles/inputrc $HOME/.inputrc
 ln -sf $HOME/workspace/Dotfiles/newsboat $HOME/.config/newsboat
 ln -sf $HOME/workspace/Dotfiles/git $HOME/.config/git
 ln -sf $HOME/workspace/Dotfiles/emacs $HOME/.config/emacs
-ln -sf $HOME/workspace/Dotfiles/procps $HOME/.config/procps
+ln -sf $HOME/workspace/Dotfiles/btop $HOME/.config/btop
