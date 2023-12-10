@@ -9,6 +9,8 @@ export MANPATH="/usr/man:/usr/share/man:/usr/local/man:/usr/local/share/man:/usr
 export INFOPATH="/usr/share/info:/usr/local/texlive/2023/texmf-dist/doc/info"
 
 export wallpapers="$HOME/Pictures/wallpapers"
+export DWM="$HOME/workspace/dwm"
+
 [ -x "$(which fcitx5 2>/dev/null)" ] &&\
 {
     export GTK_IM_MODULE=fcitx
