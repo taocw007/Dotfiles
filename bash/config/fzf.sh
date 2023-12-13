@@ -4,7 +4,7 @@ source '/usr/share/fzf/completion.bash'
 
 EXCLUDES="--exclude={.git,.idea,node_modules,__pycache__,.cache}"
 
-export FZF_COMPLETION_TRIGGER=''
+export FZF_COMPLETION_TRIGGER='*'
 export FZF_DEFAULT_COMMAND="fd ${EXCLUDES} --type f"
 _fzf_compgen_path() {
   fd --hidden --follow ${EXCLUDES} . "$1"
