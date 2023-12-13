@@ -36,7 +36,7 @@ alias pmf='pacman -F'
 alias spmr="pacman -Qeq | fzf --multi --preview 'pacman -Qi {1}' | xargs -ro sudo pacman -Rns"
 
 alias stc='sudo systemctl'
-alias stcs='sudo systemctl status'
+alias stcs='systemctl status'
 alias sstce='sudo systemctl enable'
 alias sstcd='sudo systemctl disable'
 
