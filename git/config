@@ -1,12 +1,12 @@
 [core]
-    editor = nvim
+  editor = nvim
 
 [user]
-	name = taocw
-	email = taocw@foxmail.com
+  name = taocw
+  email = taocw@foxmail.com
 
 [color]
-    ui = auto
+  ui = auto
 
 [credential]
-    helper = cache
+  helper = cache
