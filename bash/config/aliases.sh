@@ -28,6 +28,7 @@ alias spms="pacman -Slq | fzf --multi --preview 'pacman -Si {1}' | xargs -ro sud
 alias spmsyu='sudo pacman -Syyuu'
 alias pmsi='pacman -Si'
 alias pmss='pacman -Ss'
+alias pmqi='pacman -Qi'
 alias pmqo='pacman -Qo'
 alias pmql='pacman -Qlq'
 alias pmqm='pacman -Qm'
@@ -35,7 +36,7 @@ alias pmqe='pacman -Qe'
 alias pmf='pacman -F'
 alias spmr="pacman -Qeq | fzf --multi --preview 'pacman -Qi {1}' | xargs -ro sudo pacman -Rns"
 
-alias stc='sudo systemctl'
+alias sstc='sudo systemctl'
 alias stcs='systemctl status'
 alias sstce='sudo systemctl enable'
 alias sstcd='sudo systemctl disable'
