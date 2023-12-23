@@ -1,11 +1,6 @@
 https://archlinux.org/feeds/news/ "linux" "~ArchLinux: Recent News"
-https://security.archlinux.org/advisory/feed.atom "linux" "~ArchLinux: Security Advisories"
 
 https://suckless.org/atom.xml "suckless" "~Suckless org: News"
 
-http://twrp.me/feed.xml "twrp" "~TWRP Release"
-
-https://github.com/j178/chatgpt/releases.atom "github" "chatgpt" "~Github Release: chatgpt"
-https://github.com/neovim/neovim/tags.atom "github" "neovim" "~Github Release: neovim"
-https://github.com/jesseduffield/lazygit/releases.atom "github" "~Github Release: lazygit"
-https://github.com/gokcehan/lf/releases.atom "github" "~Github Release: lf"
+https://git.suckless.org/st/atom.xml "suckless" "~St commits"
+https://git.suckless.org/dwm/atom.xml "suckless" "~Dwm commits"
