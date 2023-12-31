@@ -4,8 +4,6 @@ set ifs "\n"
 set scrolloff 10
 set icons
 set cursorpreviewfmt "\033[7;90m"
-
-map <enter> shell
 set previewer "~/.config/lf/scope"
 set cleaner "~/.config/lf/cleaner"
 
@@ -19,3 +17,22 @@ ${{
         lf -remote "send $id set ratios 1:2:3:5"
     fi
 }}
+
+
+cmd mkdir $mkdir -p "$@"
+
+cmd delete ${{
+  clear; tput cup $(($(tput lines)/3)); tput bold
+  set -f
+  printf "%s\n\t" "$fx"
+  printf "delete?[y/N]"
+  read ans
+  [[ $ans = "y" ]] && rm -rf -- $fx
+}}
+
+map <c-n> push :mkdir<space>""<left>
+map <enter> shell-pipe
+map D delete
+map gd cd ~/workspace/Dotfiles
+map gb cd ~/Documents/books
+map gv cd ~/Videos
