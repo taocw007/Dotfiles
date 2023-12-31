@@ -18,6 +18,14 @@ ${{
     fi
 }}
 
+cmd open &{{
+  case $(file --mime-type -Lb $f) in
+    text/*) lf -remote "send $id \$nvim \$fx";;
+    video/*) lf -remote "send $id \$mpv \$fx &>/dev/null &";;
+    image/*) lf -remote "send $id \$feh \$fx";;
+    *) for f in $fx; do xdg-open $f > /dev/null 2> /dev/null & done;;
+  esac
+}}
 
 cmd mkdir $mkdir -p "$@"
 
