@@ -1,7 +1,7 @@
 reload-threads 99
+auto-reload yes
 browser chromium
 show-keymap-hint no
-max-items 20
 
 bind-key j down
 bind-key k up
