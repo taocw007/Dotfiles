@@ -7,5 +7,4 @@
 #                             
 
 [ -f $HOME/.Xresources ] && xrdb -merge -I$HOME ~/.Xresources
-export DWM=~/workspace/dwm
 exec dwm 2>/$HOME/.cache/dwm.log
