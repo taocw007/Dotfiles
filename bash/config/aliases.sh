@@ -23,10 +23,12 @@ alias bat='bat --style=plain'
 
 alias gl='git log --pretty="tformat:%Cred%h %Cgreen%cn %Cblue%s" --graph -n 10'
 
+alias dtmp="mkdir -p /tmp/ooohpi-tmp && cd /tmp/ooohpi-tmp"
 alias sbc="source $HOME/.bashrc"
 
 alias spms="pacman -Slq | fzf --multi --preview 'pacman -Si {1}' | xargs -ro sudo pacman -S"
 alias spmsyu='sudo pacman -Syyuu'
+alias spmfy='sudo pacman -Fy'
 alias pmsi='pacman -Si'
 alias pmss='pacman -Ss'
 alias pmqi='pacman -Qi'
@@ -38,11 +40,11 @@ alias pmf='pacman -F'
 alias spmr="pacman -Qeq | fzf --multi --preview 'pacman -Qi {1}' | xargs -ro sudo pacman -Rns"
 
 alias sstc='sudo systemctl'
-alias stcs='systemctl status'
 alias sstce='sudo systemctl enable'
 alias sstcd='sudo systemctl disable'
-
-alias dtmp="mkdir -p /tmp/ooohpi-tmp && cd /tmp/ooohpi-tmp"
+alias stcs='systemctl status'
+alias stce='systemctl --user enable'
+alias stcd='systemctl --user disable'
 
 alias smi='sudo make install'
 alias mc='make clean'
