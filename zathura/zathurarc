@@ -6,14 +6,21 @@ set selection-clipboard clipboard
 set font "SauceCodePro Nerd Font normal 14"
 set guioptions ''
 set adjust-open "width"
-map K zoom in
-map J zoom out
+set scroll-step 100
+
+map <C-i> zoom in
+map <C-o> zoom out
 map u scroll half-up
 map d scroll half-down
-map [fullscreen] K zoom in
-map [fullscreen] J zoom out
+map <C-d> toggle_page_mode
+map f toggle_fullscreen
+
+map [fullscreen] <C-i> zoom in
+map [fullscreen] <C-o> zoom out
 map [fullscreen] u scroll half-up
 map [fullscreen] d scroll half-down
+map [fullscreen] <C-d> toggle_page_mode
+map [fullscreen] f toggle_fullscreen
 
 set notification-error-bg       "#1d2021" # bg
 set notification-error-fg       "#fb4934" # bright:red
@@ -46,7 +53,7 @@ set highlight-active-color      "#fe8019" # bright:orange
 
 set default-bg                  "#1d2021" # bg
 set default-fg                  "#ebdbb2" # fg
-set render-loading              true
+set render-loading              "true"
 set render-loading-bg           "#1d2021" # bg
 set render-loading-fg           "#ebdbb2" # fg
 
@@ -54,4 +61,5 @@ set render-loading-fg           "#ebdbb2" # fg
 set recolor-lightcolor          "#1d2021" # bg
 set recolor-darkcolor           "#ebdbb2" # fg
 set recolor                     "true"
-# set recolor-keephue             true      # keep original color
+set recolor-keephue             "true"      # keep original color
+set recolor-reverse-video       "true"      # keep original color
