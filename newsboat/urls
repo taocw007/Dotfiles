@@ -1,6 +1,10 @@
-https://archlinux.org/feeds/news/ "linux" "~ArchLinux: Recent News"
+https://archlinux.org/feeds/news/ "linux" "news" "~ArchLinux: Recent News"
 
-https://suckless.org/atom.xml "suckless" "~Suckless org: News"
+https://suckless.org/atom.xml "suckless" "news" "~Suckless.org: News"
 
-https://git.suckless.org/st/atom.xml "suckless" "~St commits"
-https://git.suckless.org/dwm/atom.xml "suckless" "~Dwm commits"
+https://git.suckless.org/st/atom.xml "suckless" "commits" "~St commits"
+https://git.suckless.org/dwm/atom.xml "suckless" "commits" "~Dwm commits"
+
+https://github.com/neovim/neovim/tags.atom "neovim" "release" "~neovim release"
+
+https://github.com/JanDeDobbeleer/oh-my-posh/releases.atom "shell" "release" "~Oh my posh release"
