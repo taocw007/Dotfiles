@@ -20,9 +20,10 @@ ${{
 
 cmd open &{{
   case $(file --mime-type -Lb $f) in
-    text/*) lf -remote "send $id \$nvim \$fx";;
+    application/pdf|application/epub+zip) lf -remote "send $id \$zathura \$fx &>/dev/null &";;
     video/*) lf -remote "send $id \$mpv \$fx &>/dev/null &";;
-    image/*) lf -remote "send $id \$feh \$fx";;
+    image/*) lf -remote "send $id \$feh \$fx &>/dev/null &";;
+    text/*|application/*) lf -remote "send $id \$nvim \$fx";;
     *) for f in $fx; do xdg-open $f > /dev/null 2> /dev/null & done;;
   esac
 }}
@@ -30,7 +31,6 @@ cmd open &{{
 cmd mkdir $mkdir -p "$@"
 
 cmd delete ${{
-  clear; tput cup $(($(tput lines)/3)); tput bold
   set -f
   printf "%s\n\t" "$fx"
   printf "delete?[y/N]"
