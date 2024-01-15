@@ -6,7 +6,6 @@ set selection-clipboard clipboard
 set font "SauceCodePro Nerd Font normal 14"
 set guioptions ''
 set adjust-open "width"
-set scroll-step 100
 
 map <C-i> zoom in
 map <C-o> zoom out
