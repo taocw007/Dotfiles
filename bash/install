@@ -3,4 +3,6 @@
 _thisdir=$(cd $(dirname $0); pwd)
 echo "omb=$_thisdir" > $HOME/.bashrc
 echo 'source $omb/rc' >> $HOME/.bashrc
-mkdir -P $HOME/.local/bin && ln -svf $_thisdir/scripts/lfub $HOME/.local/bin/lfub
+mkdir -p $HOME/.local/bin || exit
+ln -svf $_thisdir/scripts/lfub $HOME/.local/bin/lfub
+ln -svf $_thisdir/scripts/tray $HOME/.local/bin/tray
