@@ -20,6 +20,7 @@ alias se='sudo -e'
 alias free='free -h'
 alias df='df -h'
 alias bat='bat --style=plain'
+alias ip="ip -c"
 
 alias gl='git log --pretty="tformat:%Cred%h %Cgreen%cn %Cblue%s" --graph -n 10'
 
