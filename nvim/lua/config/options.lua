@@ -6,7 +6,7 @@ opt.clipboard = "unnamedplus"
 
 opt.showcmd = true
 opt.number = true
-opt.scrolloff = 5
+opt.scrolloff = 10
 opt.cursorline = true
 
 opt.hlsearch = true
