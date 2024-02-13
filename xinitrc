@@ -7,4 +7,5 @@
 #                             
 
 [ -f $HOME/.Xresources ] && xrdb -merge -I$HOME ~/.Xresources
+xrandr --dpi 144
 exec dwm 2>/$HOME/.cache/dwm.log
