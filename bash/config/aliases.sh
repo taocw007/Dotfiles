@@ -24,7 +24,7 @@ alias ip="ip -c"
 
 alias gl='git log --pretty="tformat:%Cred%h %Cgreen%cn %Cblue%s" --graph -n 10'
 
-alias dtmp="mkdir -p /tmp/ooohpi-tmp && cd /tmp/ooohpi-tmp"
+alias dtmp="mkdir -p /tmp/taocw-tmp && cd /tmp/taocw-tmp"
 alias sbc="source $HOME/.bashrc"
 
 alias spms="pacman -Slq | fzf --multi --preview 'pacman -Si {1}' | xargs -ro sudo pacman -S"
