@@ -1,24 +1,21 @@
 #!/usr/bin/env bash
 
 _thisdir=$(cd $(dirname $0); pwd)
-cache="$HOME/.cache"
 
 ohmyposh() {
 	local url='https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/posh-linux-amd64'
-    echo "Downloading oh-my-posh..."
-	wget -q -P $cache $url
-	cp -v $cache/posh-linux-amd64 $_thisdir/plugins/ohmyposh/oh-my-posh
+	aria2c --out="posh-linux-amd64" $url || return
+	cp -v $_thisdir/posh-linux-amd64 $_thisdir/plugins/ohmyposh/oh-my-posh
 	chmod u+x $_thisdir/plugins/ohmyposh/oh-my-posh
-	rm -v $cache/posh-linux-amd64
+	rm -v $_thisdir/posh-linux-amd64
     echo -e "Finished.\n"
 }
 
 zlua() {
 	local url='https://raw.githubusercontent.com/skywind3000/z.lua/master/z.lua'
-    echo "Downloading z.lua..."
-	wget -q -P $cache $url || return
-	cp -v $cache/z.lua $_thisdir/plugins/z/z.lua
-	rm -v $cache/z.lua
+	aria2c --out="z.lua" $url || return
+	cp -v $_thisdir/z.lua $_thisdir/plugins/z/z.lua
+	rm -v $_thisdir/z.lua
     echo -e "Finished.\n"
 }
 
