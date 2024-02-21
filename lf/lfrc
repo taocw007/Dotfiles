@@ -38,9 +38,12 @@ cmd delete ${{
   [[ $ans = "y" ]] && rm -rf -- $fx
 }}
 
-map <c-n> push :mkdir<space>""<left>
+map xnd push :mkdir<space>""<left>
+map xnf push $touch<space>""<left>
 map <enter> shell-pipe
 map D delete
 map gd cd ~/workspace/Dotfiles
 map gb cd ~/Documents/books
 map gv cd ~/Videos
+
+# vim: ft=lfrc
