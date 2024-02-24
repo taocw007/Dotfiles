@@ -152,7 +152,7 @@ fi             # FILE
 *.elm           
 *.swift         
 *.xcplayground  
-*.tex           󰙩
+*.tex           
 *.r             󰟔
 *.rproj         󰗆
 *.sol           󰡪
