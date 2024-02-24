@@ -1,0 +1,3 @@
+Host vultr
+  HostName vultr.taocw.top
+  User root
