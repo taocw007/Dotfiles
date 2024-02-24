@@ -8,3 +8,5 @@ https://git.suckless.org/dwm/atom.xml "suckless" "commits" "~Dwm commits"
 https://github.com/neovim/neovim/tags.atom "neovim" "release" "~neovim release"
 
 https://github.com/JanDeDobbeleer/oh-my-posh/releases.atom "shell" "release" "~Oh my posh release"
+
+https://github.com/tmux/tmux/releases.atom "shell" "release" "~Tmux release"
