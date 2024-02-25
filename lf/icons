@@ -97,7 +97,7 @@ fi             # FILE
 *.nix           
 *.lua           
 *.java          
-*.sh            
+*.sh            󱆃
 *.fish          
 *.bash          
 *.zsh           
