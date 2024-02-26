@@ -1,7 +1,3 @@
-bin="$omb/plugins/ohmyposh/oh-my-posh"
-config="$omb/plugins/ohmyposh/theme.omp.json"
+config="$omb/config/theme.omp.json"
 
-eval "$($bin init bash --config $config)"
-
-unset bin
-unset config
+eval "$(oh-my-posh init bash --config $config)"

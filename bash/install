@@ -1,8 +1,11 @@
 #!/bin/sh
 
-_thisdir=$(cd $(dirname $0); pwd)
-echo "omb=$_thisdir" > $HOME/.bashrc
-echo 'source $omb/rc' >> $HOME/.bashrc
+_thisdir=$(
+	cd $(dirname $0)
+	pwd
+)
+echo "omb=$_thisdir" >$HOME/.bashrc
+echo 'source $omb/rc' >>$HOME/.bashrc
 mkdir -p $HOME/.local/bin || exit
-ln -svf $_thisdir/scripts/lfub $HOME/.local/bin/lfub
-ln -svf $_thisdir/scripts/tray $HOME/.local/bin/tray
+ln -svf $_thisdir/../scripts/lfub $HOME/.local/bin/lfub
+ln -svf $_thisdir/../scripts/tray $HOME/.local/bin/tray
