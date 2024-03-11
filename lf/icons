@@ -351,7 +351,9 @@ Vagrantfile             
 *.opus  
 *.spx   
 *.xspf  
+*.wma   
 
 # other formats
 *.pdf   
 *.epub  
+*.m3u   󰐑

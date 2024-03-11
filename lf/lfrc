@@ -40,10 +40,17 @@ cmd delete ${{
 
 map xnd push :mkdir<space>""<left>
 map xnf push $touch<space>""<left>
+map xlg push $lazygit<enter>
+map xp push &mpv<space>$f<enter>
 map <enter> shell-pipe
 map D delete
-map gd cd ~/workspace/Dotfiles
-map gb cd ~/Documents/books
-map gv cd ~/Videos
+map gd cd ~/workspace/Dotfiles/
+map gb cd ~/Documents/books/
+map gt cd ~/Documents/theses/
+map gv cd ~/Videos/
+map gD cd ~/Downloads/
+map gm cd ~/Music/
+map gc cd ~/.config/
+map gw cd ~/workspace/
 
 # vim: ft=lfrc
