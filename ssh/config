@@ -1,3 +1,2 @@
-Host vultr
-  HostName vultr.taocw.top
-  User root
+include ~/.ssh/hosts
+AddressFamily inet
