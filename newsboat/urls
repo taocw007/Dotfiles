@@ -1,12 +1,19 @@
 https://archlinux.org/feeds/news/ "linux" "news" "~ArchLinux: Recent News"
-
 https://suckless.org/atom.xml "suckless" "news" "~Suckless.org: News"
-
 https://git.suckless.org/st/atom.xml "suckless" "commits" "~St commits"
 https://git.suckless.org/dwm/atom.xml "suckless" "commits" "~Dwm commits"
-
 https://github.com/neovim/neovim/tags.atom "neovim" "release" "~neovim release"
-
 https://github.com/JanDeDobbeleer/oh-my-posh/releases.atom "shell" "release" "~Oh my posh release"
-
 https://github.com/tmux/tmux/releases.atom "shell" "release" "~Tmux release"
+https://github.com/alist-org/alist/releases.atom "release" "~Alist release"
+https://github.com/2dust/v2rayNG/releases.atom "release" "~V2rayNG release"
+https://www.kernel.org/feeds/kdist.xml "release" "~Linux Kernel release"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCrqM0Ym_NbK1fqeQG2VIohg "youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA "youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCYPT3wl0MgbOz63ho166KOw "youtube"
+http://rsshub.app/bilibili/user/dynamic/391250059 "bilibili" "~磁带随身听"
+http://rsshub.app/bilibili/user/dynamic/1632276842 "bilibili" "~Ayumu爱讲数学"
+http://rsshub.app/bilibili/user/dynamic/202224425 "bilibili" "~绿导师原谅你了"
+http://rsshub.app/bilibili/user/dynamic/927587 "bilibili" "~木鱼水心"
+http://rsshub.app/bilibili/user/dynamic/483162496 "bilibili" "~英语兔"
+https://rsshub.app/gov/cmse/fxrw
