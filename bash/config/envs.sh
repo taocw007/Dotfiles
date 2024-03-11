@@ -11,12 +11,13 @@ export INFOPATH="/usr/share/info:/usr/local/texlive/2023/texmf-dist/doc/info"
 export wallpapers="$HOME/Pictures/wallpapers"
 export DWM="$HOME/workspace/dwm"
 export ALSA_CARD="Generic_1"
+export BROWSER="chromium"
 
-[ -x "$(which fcitx5 2>/dev/null)" ] &&\
-{
-    export GTK_IM_MODULE=fcitx
-    export QT_IM_MODULE=fcitx
-    export XMODIFIERS=@im=fcitx
-    export SDL_IM_MODULE=fcitx
-    export GLFW_IM_MODULE=ibus
-}
+[ -x "$(which fcitx5 2>/dev/null)" ] &&
+	{
+		export GTK_IM_MODULE=fcitx
+		export QT_IM_MODULE=fcitx
+		export XMODIFIERS=@im=fcitx
+		export SDL_IM_MODULE=fcitx
+		export GLFW_IM_MODULE=ibus
+	}
