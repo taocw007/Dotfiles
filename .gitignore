@@ -11,3 +11,4 @@ newsboat/cache.db.lock
 lazygit/state.yml
 
 bash/cache/bashhistory
+newsboat/cookie.txt
