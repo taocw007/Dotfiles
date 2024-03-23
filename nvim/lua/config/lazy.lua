@@ -8,7 +8,7 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
   spec = {
-    { dir = "~/workspace/TaoVim", import = "taovim.plugins", priority = 10000, lazy = false, config = true, cond = true },
+    { import = "plugins" },
   },
   defaults = {
     -- If you know what you're doing, you can set this to `true` to have all your custom plugins lazy-loaded by default.
@@ -22,7 +22,7 @@ require("lazy").setup({
   checker = { enabled = true }, -- automatically check for plugin updates
   ui = {
     wrap = false,
-    border = "rounded"
+    border = "rounded",
   },
   performance = {
     rtp = {
