@@ -44,11 +44,11 @@ map xlg push $lazygit<enter>
 map xp push &mpv<space>$f<enter>
 map <enter> shell-pipe
 map D delete
-map gd cd ~/workspace/Dotfiles/
+map gD cd ~/workspace/Dotfiles/
 map gb cd ~/Documents/books/
 map gt cd ~/Documents/theses/
 map gv cd ~/Videos/
-map gD cd ~/Downloads/
+map gd cd ~/Downloads/
 map gm cd ~/Music/
 map gc cd ~/.config/
 map gw cd ~/workspace/
