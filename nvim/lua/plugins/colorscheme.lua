@@ -1,17 +1,18 @@
 return {
   {
     "ellisonleao/gruvbox.nvim",
+    lazy = false,
     priority = 1000,
-    config = true,
-    init = function()
-      vim.cmd("colorscheme gruvbox")
-    end,
     opts = {
       contrast = "hard",
       transparent_mode = true,
-			overrides = {
-				CursorLineNr = { link = "GruvboxYellowBold" },
-			},
-    }
+      overrides = {
+        CursorLineNr = { link = "GruvboxYellowBold" },
+      },
+    },
+    config = function(_, opts)
+      require("gruvbox").setup(opts)
+      vim.cmd("colorscheme gruvbox")
+    end,
   }
 }
