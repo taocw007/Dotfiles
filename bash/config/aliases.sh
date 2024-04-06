@@ -4,6 +4,8 @@ alias nb='newsboat'
 alias vi='nvim'
 alias py='python'
 alias lf='lfub'
+alias dl='aria2c'
+alias g='git'
 
 alias wifil='nmcli dev wifi list'
 alias info='info --vi-keys'
