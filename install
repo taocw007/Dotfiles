@@ -1,78 +1,20 @@
 #!/bin/sh
 
-doLink() {
-	echo "====================================================="
-	ls $HOME/.config/$1 > /dev/null 2>&1 && rm -rv $HOME/.config/$1
-	ln -sfv $HOME/workspace/Dotfiles/$1 $HOME/.config/$1
-	echo -e "=====================================================\n"
-}
+s1=("aria2" "fontconfig" "mpd" "newsboat" "qrcp" "tmux" "zathura" "dunst" "lazygit" "mpv" "nvim" "redshift" "btop" "emacs" "git" "lf" "ncmpcpp" "picom" "rofi" "yt-dlp")
+s2=("Xmodmap" "inputrc" "xinitrc")
 
-main() {
-	for item in $@
-	do
-		case $item in
-			"dunst")
-				doLink $item
-				;;
-			"mpd")
-				doLink $item
-				;;
-			"ncmpcpp")
-				doLink $item
-				;;
-			"qrcp")
-				doLink $item
-				;;
-			"yt-dlp")
-				doLink $item
-				;;
-			"mpv")
-				doLink $item
-				;;
-			"chromium-flags.conf")
-				doLink $item
-				;;
-			"zathura")
-				doLink $item
-				;;
-			"nvim")
-				doLink $item
-				;;
-			"git")
-				doLink $item
-				;;
-			"lazygit")
-				doLink $item
-				;;
-			"fontconfig")
-				doLink $item
-				;;
-			"tmux")
-				doLink $item
-				;;
-			"picom")
-				doLink $item
-				;;
-			"lf")
-				doLink $item
-				;;
-			"newsboat")
-				doLink $item
-				;;
-			"inputrc")
-				ln -sfv $HOME/workspace/Dotfiles/inputrc $HOME/.inputrc
-				;;
-			"Xmodmap")
-				ln -sfv $HOME/workspace/Dotfiles/Xmodmap $HOME/.Xmodmap
-				;;
-			"ssh")
-				ln -sfv $HOME/workspace/Dotfiles/ssh.conf $HOME/.ssh/config
-				;;
-			"G")
-				sudo ln -sfv $HOME/workspace/Dotfiles/G /usr/bin/G
-				;;
-		esac
-	done
-}
+for item in ${s1[*]}
+do
+  echo "====================================================="
+  ls $HOME/.config/$item > /dev/null 2>&1 && rm -rv $HOME/.config/$item
+  ln -sfv $HOME/workspace/Dotfiles/$item $HOME/.config/$item
+  echo -e "=====================================================\n"
+done
 
-main $@
+for item in ${s2[*]}
+do
+  echo "====================================================="
+  ls $HOME/.$item > /dev/null 2>&1 && rm -rv $HOME/.$item
+  ln -sfv $HOME/workspace/Dotfiles/$1 $HOME/.$item
+  echo -e "=====================================================\n"
+done
