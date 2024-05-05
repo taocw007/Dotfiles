@@ -22,13 +22,12 @@ opt.splitright = true
 opt.timeout = true
 opt.timeoutlen = 500
 opt.wildmode = "longest,list"
-opt.colorcolumn = "80"
 opt.statuscolumn = [[%=%l %s]]
 opt.undofile = true
 opt.undolevels = 10000
 opt.confirm = true
 opt.ignorecase = true
-opt.laststatus = 0
+opt.laststatus = 3
 opt.list = true
 opt.shiftround = true
 opt.signcolumn = "yes"
