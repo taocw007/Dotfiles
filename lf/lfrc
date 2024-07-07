@@ -45,7 +45,7 @@ map xp push &mpv<space>$f<enter>
 map <enter> shell-pipe
 map D delete
 map gD cd ~/workspace/Dotfiles/
-map gb cd ~/Documents/books/
+map gb cd ~/Documents/Books/
 map gt cd ~/Documents/theses/
 map gv cd ~/Videos/
 map gd cd ~/Downloads/
