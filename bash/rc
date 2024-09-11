@@ -5,7 +5,7 @@ source $omb/config/envs.sh
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 source $omb/config/settings.sh
-source $omb/config/prompt.sh
+[[ -x /bin/oh-my-posh ]] && source $omb/config/prompt.sh || export PS1="\[\e[01;34m\]\w\n\$\[\e[00m\] "
 source $omb/config/aliases.sh
-source $omb/config/fzf.sh
-source $omb/config/z.sh
+[[ -x /bin/fzf ]] && source $omb/config/fzf.sh
+[[ -x /bin/zoxide ]] && source $omb/config/z.sh
