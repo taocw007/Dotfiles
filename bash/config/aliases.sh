@@ -1,3 +1,4 @@
+alias tos='sleep 1 && xset dpms force standby'
 alias lg='lazygit'
 alias cg='chatgpt'
 alias nb='newsboat'
@@ -28,26 +29,6 @@ alias gl='git log --pretty="tformat:%Cred%h %Cgreen%cn %Cblue%s" --graph -n 10'
 
 alias dtmp="mkdir -p /tmp/taocw-tmp && cd /tmp/taocw-tmp"
 alias sbc="source $HOME/.bashrc"
-
-alias spms="pacman -Slq | fzf --multi --preview 'pacman -Si {1}' | xargs -ro sudo pacman -S"
-alias spmsyu='sudo pacman -Syyuu'
-alias spmfy='sudo pacman -Fy'
-alias pmsi='pacman -Si'
-alias pmss='pacman -Ss'
-alias pmqi='pacman -Qi'
-alias pmqo='pacman -Qo'
-alias pmql='pacman -Qlq'
-alias pmqm='pacman -Qm'
-alias pmqe='pacman -Qe'
-alias pmf='pacman -F'
-alias spmr="pacman -Qeq | fzf --multi --preview 'pacman -Qi {1}' | xargs -ro sudo pacman -Rns"
-
-alias sstc='sudo systemctl'
-alias sstce='sudo systemctl enable'
-alias sstcd='sudo systemctl disable'
-alias stcs='systemctl status'
-alias stce='systemctl --user enable'
-alias stcd='systemctl --user disable'
 
 alias smi='sudo make install'
 alias mc='make clean'
