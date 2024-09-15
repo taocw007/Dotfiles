@@ -1,7 +1,8 @@
-@theme "gruvbox-dark"
+//@theme "gruvbox-dark"
 configuration {
     font: "SauceCodePro Nerd Font 14";
     dpi: 144;
 }
 
 /* vim: set ft=css: */
+@theme "/usr/share/rofi/themes/gruvbox-dark-hard.rasi"
