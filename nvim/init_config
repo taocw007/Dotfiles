@@ -1,6 +1,0 @@
-#!/bin/sh
-
-[ -d ~/.local/share/nvim ] && rm -rf ~/.local/share/nvim
-[ -d ~/.local/state/nvim ] && rm -rf ~/.local/state/nvim
-[ -f ~/.config/nvim/lazy-lock.json ] && rm -rf ~/.config/nvim/lazy-lock.json
-[ -d ~/.cache/nvim ] && rm -rf ~/.cache/nvim

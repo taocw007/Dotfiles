@@ -2,33 +2,14 @@ vim.g.mapleader = " "
 
 local opt = vim.opt
 
-if not vim.env.SSH_TTY then
-  -- only set clipboard if not in ssh, to make sure the OSC 52
-  -- integration works automatically. Requires Neovim >= 0.10.0
-  opt.clipboard = "unnamedplus" -- Sync with system clipboard
-end
-
-opt.autowrite = true
-opt.number = true
-opt.cursorline = true
-opt.smartindent = true
-opt.smartcase = true
-opt.expandtab = true
-opt.tabstop = 2
-opt.shiftwidth = 2
-opt.scrolloff = 5
+opt.clipboard = vim.env.SSH_TTY and "" or "unnamedplus" -- Sync with system clipboard
+opt.laststatus = 0
+opt.shortmess:append("I") -- don't show intro message
 opt.splitbelow = true
 opt.splitright = true
-opt.timeout = true
-opt.timeoutlen = 500
-opt.wildmode = "longest,list"
-opt.statuscolumn = [[%=%l %s]]
-opt.undofile = true
-opt.undolevels = 10000
+opt.number = true
+opt.relativenumber = true
+opt.cursorline = true
 opt.confirm = true
-opt.ignorecase = true
-opt.laststatus = 3
-opt.list = true
-opt.shiftround = true
-opt.signcolumn = "yes"
-opt.wrap = false
+opt.list = true -- list mode
+opt.guicursor="a:block-blinkon100"
