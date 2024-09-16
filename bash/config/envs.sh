@@ -10,7 +10,7 @@ export DWM="$HOME/workspace/dwm"
 export ALSA_CARD="Generic_1"
 export BROWSER="chromium"
 
-[ -x "$(which fcitx5 2>/dev/null)" ] &&
+[ -x "$(which fcitx5 2>/dev/null)" ] || [ -x "$(which fcitx 2>/dev/null)" ] &&
 	{
 		export GTK_IM_MODULE=fcitx
 		export QT_IM_MODULE=fcitx
