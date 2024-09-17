@@ -8,7 +8,6 @@ alias lf='lfub'
 alias dl='aria2c'
 alias g='git'
 
-alias wifil='nmcli dev wifi list'
 alias info='info --vi-keys'
 alias ls='ls --color=auto -h'
 alias ll='ls -l'

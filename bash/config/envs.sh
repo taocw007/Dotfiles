@@ -6,7 +6,7 @@ export PATH="$HOME/.local/bin:${PATH}:/opt/cuda/bin:/usr/local/texlive/2023/bin/
 [ -x "$(which nvim)" ] && export EDITOR='nvim'
 
 export wallpapers="$HOME/Pictures/wallpapers"
-export DWM="$HOME/workspace/dwm"
+export DWM="$HOME/workspace/src/dwm"
 export ALSA_CARD="Generic_1"
 export BROWSER="chromium"
 
