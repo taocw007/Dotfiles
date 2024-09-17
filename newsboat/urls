@@ -1,5 +1,3 @@
-https://archlinux.org/feeds/news/ "linux" "news" "~ArchLinux: Recent News"
-
 https://suckless.org/atom.xml "suckless" "news" "~Suckless.org: News"
 https://git.suckless.org/st/atom.xml "suckless" "commits" "~St commits"
 https://git.suckless.org/dwm/atom.xml "suckless" "commits" "~Dwm commits"
@@ -17,13 +15,5 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCrqM0Ym_NbK1fqeQG2VIohg "yo
 https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA "youtube"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCYPT3wl0MgbOz63ho166KOw "youtube"
 
-https://rsshub.app/bilibili/user/dynamic/391250059 "bilibili" "~磁带随身听"
-https://rsshub.app/bilibili/user/dynamic/1632276842 "bilibili" "~Ayumu爱讲数学"
-https://rsshub.app/bilibili/user/dynamic/202224425 "bilibili" "~绿导师原谅你了"
-https://rsshub.app/bilibili/user/dynamic/927587 "bilibili" "~木鱼水心"
-https://rsshub.app/bilibili/user/dynamic/483162496 "bilibili" "~英语兔"
-https://rsshub.app/bilibili/user/dynamic/3493093607213343 "bilibili" "~JLRS-LeoFM"
-
-https://rsshub.app/gov/cmse/fxrw
 https://zignar.net/index.xml "blog" "~Mathias Fußenegger"
 https://www.uninformativ.de/blog/feeds/en.atom "blog" "~uninformativ.de"
