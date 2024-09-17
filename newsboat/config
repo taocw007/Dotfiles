@@ -1,11 +1,9 @@
 reload-threads 99
-auto-reload yes
+auto-reload no
 show-keymap-hint no
 show-read-feeds no
 cookie-cache "~/.config/newsboat/cookie.txt"
 download-retries 2
-
-external-url-viewer "urlscan -dc -r 'linkhandler {}'"
 
 # Generic bindings
 bind-key j down
@@ -22,7 +20,7 @@ bind-key r toggle-article-read articlelist
 bind-key J next-feed articlelist
 bind-key K prev-feed articlelist
 
-browser linkhandler
+browser chromium
 macro , open-in-browser
 macro t set browser "qndl" ; open-in-browser ; set browser linkhandler
 macro a set browser "tsp yt-dlp --embed-metadata -xic -f bestaudio/best --restrict-filenames" ; open-in-browser ; set browser linkhandler
@@ -46,17 +44,17 @@ selecttag-title-format "Select Tag"
 urlview-title-format "URLs"
 
 # Colors from "gruvbox" colorscheme https://github.com/morhetz/gruvbox
-color article                              color223 color234
-color background                           color100 color234
-color info                                 color142 color234
-color listfocus                            color214 color234
-color listfocus_unread                     color214 color234
-color listnormal                           color246 color234
-color listnormal_unread                    color175 color234
-highlight article "^Feed:.*"               color175 color234
-highlight article "^Title:.*"              color214 color234 bold
-highlight article "^Author:.*"             color167 color234
-highlight article "^Link:.*"               color109 color234
-highlight article "^Date:.*"               color142 color234
-highlight article "\\[[0-9]\\+\\]"         color208 color234 bold
-highlight article "\\[[^0-9].*[0-9]\\+\\]" color167 color234 bold
+color article                              color223 black
+color background                           black    black
+color info                                 color142 black
+color listfocus                            color214 black
+color listfocus_unread                     color214 black
+color listnormal                           color246 black
+color listnormal_unread                    color175 black
+highlight article "^Feed:.*"               color175 black
+highlight article "^Title:.*"              color214 black bold
+highlight article "^Author:.*"             color167 black
+highlight article "^Link:.*"               color109 black
+highlight article "^Date:.*"               color142 black
+highlight article "\\[[0-9]\\+\\]"         color208 black bold
+highlight article "\\[[^0-9].*[0-9]\\+\\]" color167 black bold
