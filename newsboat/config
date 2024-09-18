@@ -45,7 +45,7 @@ urlview-title-format "URLs"
 
 # Colors from "gruvbox" colorscheme https://github.com/morhetz/gruvbox
 color article                              color223 black
-color background                           black    black
+color background                           white    black
 color info                                 color142 black
 color listfocus                            color214 black
 color listfocus_unread                     color214 black
