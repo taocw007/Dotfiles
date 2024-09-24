@@ -11,9 +11,10 @@ https://github.com/jesseduffield/lazygit/releases.atom "release" "~Lazygit relea
 
 https://www.kernel.org/feeds/kdist.xml "release" "~Linux Kernel release"
 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCrqM0Ym_NbK1fqeQG2VIohg "youtube"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA "youtube"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCYPT3wl0MgbOz63ho166KOw "youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCrqM0Ym_NbK1fqeQG2VIohg "youtube" "~Tsoding Daily"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA "youtube" "~Luke Smith"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCYPT3wl0MgbOz63ho166KOw "youtube" "~小岛大浪吹"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC8butISFwT-Wl7EV0hUK0BQ "youtube" "~freeCodeCamp.org"
 
 https://zignar.net/index.xml "blog" "~Mathias Fußenegger"
 https://www.uninformativ.de/blog/feeds/en.atom "blog" "~uninformativ.de"
