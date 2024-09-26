@@ -24,9 +24,27 @@ require("lazy").setup({
   checker = {
     enabled = true,
     frequency = 3600*12,
+    notify = false,
   },
   ui = {
     wrap = false,
     border = "rounded",
-  }
+  },
+  performance = {
+    rtp = {
+      disabled_plugins = {
+        "gzip",
+        "tarPlugin",
+        "tohtml",
+        "tutor",
+        "zipPlugin",
+        "matchit",
+        "netrwPlugin",
+        "spellfile",
+        "fzf",
+        "rplugin",
+        "shada",
+      }
+    }
+  },
 })
