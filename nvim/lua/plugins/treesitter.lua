@@ -17,6 +17,7 @@ return {
       require("nvim-treesitter.query_predicates")
     end,
     cmd = { "TSUpdateSync", "TSUpdate", "TSInstall" },
+    opts_extend = { "ensure_installed" },
     opts = {
       ensure_installed = {
         "c",
@@ -27,7 +28,9 @@ return {
         "vimdoc",
         "make",
         "bash",
-      }
+      },
+      highlight = { enable = true},
+      indent = { enable = true },
     },
     config = function(_, opts)
       if type(opts.ensure_installed) == "table" then
