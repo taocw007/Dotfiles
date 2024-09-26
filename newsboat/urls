@@ -18,3 +18,15 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UC8butISFwT-Wl7EV0hUK0BQ "yo
 
 https://zignar.net/index.xml "blog" "~Mathias Fußenegger"
 https://www.uninformativ.de/blog/feeds/en.atom "blog" "~uninformativ.de"
+
+https://github.com/folke/lazy.nvim/commits.atom "neovim" "~lazy.nvim"
+https://github.com/Kicamon/gruvbox.nvim/commits.atom "neovim" "~gruvbox.nvim"
+https://github.com/nvim-treesitter/nvim-treesitter/commits.atom "neovim" "~nvim-treesitter"
+https://github.com/folke/which-key.nvim/commits.atom "neovim" "~which-key.nvim"
+https://github.com/neovim/nvim-lspconfig/commits.atom "neovim" "~nvim-lspconfig
+https://github.com/williamboman/mason.nvim/commits.atom "neovim" "~mason.nvim"
+https://github.com/echasnovski/mini.pairs/commits.atom "neovim" "~mini.pairs"
+https://github.com/hrsh7th/nvim-cmp/commits.atom "neovim" "~nvim-cmp"
+https://github.com/hrsh7th/cmp-buffer/commits.atom "neovim" "~cmp-buffer"
+https://github.com/hrsh7th/cmp-nvim-lsp/commits.atom "neovim" "~cmp-nvim-lsp"
+https://github.com/hrsh7th/cmp-path/commits.atom "neovim" "~cmp-path"
