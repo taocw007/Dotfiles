@@ -12,3 +12,5 @@ lazygit/state.yml
 
 bash/cache/bashhistory
 newsboat/cookie.txt
+emacs/elpa
+emacs/projects
