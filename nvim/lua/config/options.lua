@@ -23,3 +23,4 @@ end)
 opt.signcolumn = "yes"
 opt.scrolloff = 5
 opt.smoothscroll = true
+opt.path = ".,,**"
