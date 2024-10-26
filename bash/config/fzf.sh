@@ -1,6 +1,9 @@
 [ -x "$(which fzf 2>/dev/null)" ] || return
 source '/usr/share/fzf/key-bindings.bash'
-source '/usr/share/bash-completion/completions/fzf'
+
+[ -f '/usr/share/bash-completion/completions/fzf' ]\
+        && source '/usr/share/bash-completion/completions/fzf'\
+        || source '/usr/share/fzf/completion.bash'
 
 EXCLUDES="--exclude={.git,.idea,node_modules,__pycache__,.cache}"
 
