@@ -18,3 +18,5 @@ emacs/projects
 .ssh/id_ed25519.pub
 .ssh/known_hosts
 .ssh/known_hosts.old
+nvim/lazy-lock.json
+nvim/lazyvim.json

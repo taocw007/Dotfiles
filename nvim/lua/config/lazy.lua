@@ -18,12 +18,13 @@ vim.opt.rtp:prepend(lazypath)
 -- Setup lazy.nvim
 require("lazy").setup({
   spec = {
+    { "LazyVim/LazyVim", import = "lazyvim.plugins" },
     { import = "plugins" },
   },
   install = { colorscheme = { "gruvbox" } },
   checker = {
     enabled = true,
-    frequency = 3600*12,
+    frequency = 3600 * 12,
     notify = false,
   },
   ui = {
@@ -44,7 +45,7 @@ require("lazy").setup({
         "fzf",
         "rplugin",
         "shada",
-      }
-    }
+      },
+    },
   },
 })
