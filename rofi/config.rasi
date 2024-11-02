@@ -1,6 +1,6 @@
 //@theme "gruvbox-dark"
 configuration {
-    font: "SauceCodePro Nerd Font 14";
+    font: "Hack Nerd Font 14";
     dpi: 144;
 }
 
