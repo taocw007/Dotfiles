@@ -2,3 +2,9 @@ Xft.dpi: 144
 st.alpha: 0.95
 st.tername: st
 st.font: Mono-16;
+Xft.autohint: 0
+Xft.lcdfilter:  lcddefault
+Xft.hintstyle:  hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
