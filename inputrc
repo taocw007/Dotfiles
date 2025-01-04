@@ -2,4 +2,4 @@ set completion-ignore-case on
 set show-all-if-ambiguous on
 set editing-mode vi
 set keymap vi-insert
-jf:"\e"
+"jf":"\e"
