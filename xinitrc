@@ -8,5 +8,5 @@
 
 [ -f $HOME/.Xresources ] && xrdb -merge -I$HOME ~/.Xresources
 xmodmap ~/.Xmodmap
-xrandr --output eDP --scale 0.8 --dpi 144
+xrandr --output eDP --dpi 192
 exec dwm 2>/$HOME/.cache/dwm.log
