@@ -1,13 +1,14 @@
+https://archlinux.org/feeds/news "archlinux" "news"
 https://suckless.org/atom.xml "suckless" "news" "~Suckless.org: News"
 https://git.suckless.org/st/atom.xml "suckless" "commits" "~St commits"
 https://git.suckless.org/dwm/atom.xml "suckless" "commits" "~Dwm commits"
 
 https://github.com/neovim/neovim/tags.atom "neovim" "release" "~neovim release"
-https://github.com/JanDeDobbeleer/oh-my-posh/releases.atom "shell" "release" "~Oh my posh release"
 https://github.com/tmux/tmux/releases.atom "shell" "release" "~Tmux release"
 https://github.com/alist-org/alist/releases.atom "release" "~Alist release"
 https://github.com/2dust/v2rayNG/releases.atom "release" "~V2rayNG release"
 https://github.com/jesseduffield/lazygit/releases.atom "release" "~Lazygit release"
+https://github.com/yshui/picom/releases.atom "release" "~Picom"
 
 https://www.kernel.org/feeds/kdist.xml "release" "~Linux Kernel release"
 
@@ -22,15 +23,3 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UC4gzU_8MxRDiQrSFOiT79tQ "yo
 https://zignar.net/index.xml "blog" "~Mathias Fußenegger"
 https://www.uninformativ.de/blog/feeds/en.atom "blog" "~uninformativ.de"
 https://jdhao.github.io/index.xml
-
-https://github.com/folke/lazy.nvim/commits.atom "neovim" "~lazy.nvim"
-https://github.com/Kicamon/gruvbox.nvim/commits.atom "neovim" "~gruvbox.nvim"
-https://github.com/nvim-treesitter/nvim-treesitter/commits.atom "neovim" "~nvim-treesitter"
-https://github.com/folke/which-key.nvim/commits.atom "neovim" "~which-key.nvim"
-https://github.com/neovim/nvim-lspconfig/commits.atom "neovim" "~nvim-lspconfig
-https://github.com/williamboman/mason.nvim/commits.atom "neovim" "~mason.nvim"
-https://github.com/echasnovski/mini.pairs/commits.atom "neovim" "~mini.pairs"
-https://github.com/hrsh7th/nvim-cmp/commits.atom "neovim" "~nvim-cmp"
-https://github.com/hrsh7th/cmp-buffer/commits.atom "neovim" "~cmp-buffer"
-https://github.com/hrsh7th/cmp-nvim-lsp/commits.atom "neovim" "~cmp-nvim-lsp"
-https://github.com/hrsh7th/cmp-path/commits.atom "neovim" "~cmp-path"
