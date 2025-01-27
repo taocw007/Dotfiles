@@ -1,3 +1,7 @@
-vim.loader.enable()
+vim.g.mapleader = " "
 
-require("config.lazy")
+require("options")
+require("autocmds")
+require("keymaps")
+
+vim.cmd([[colorscheme gruvbox]])
